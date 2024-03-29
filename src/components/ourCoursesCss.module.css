@@ -1,0 +1,9 @@
+.center{
+    background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+

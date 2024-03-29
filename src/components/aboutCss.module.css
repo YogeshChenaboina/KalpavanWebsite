@@ -1,0 +1,54 @@
+.center{
+    background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 10px;
+}
+.div1{
+ width: 70%;
+}
+.div2{
+    width: 30%;   
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.image{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/board.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.layer {
+    background-color: rgba(29, 29, 28, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: rgb(243, 243, 247);
+ font-family: "Brygada 1918", serif;
+ font-size: 20px;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+@media (max-width: 750px) {
+    .layer {
+        padding: 15px;
+      font-size: 16px; 
+    }
+    .main1{
+        font-size: 10px;
+    }
+  }

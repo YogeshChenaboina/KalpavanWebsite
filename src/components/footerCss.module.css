@@ -1,0 +1,53 @@
+
+.main{
+    background-color: black;
+    min-height: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.symbol{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.div2{
+    width: 50%;
+}
+
+.social{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.symb{
+    margin: 3px;
+}
+@media (max-width: 768px) {
+    .social {
+      font-size: 20px;
+    }
+    .symb{
+        margin: 1px;
+        font-size: 10px;
+    }
+    h3{
+    font-size: 15px;
+    }
+    
+  }
+  @media (max-width: 350px) {
+    .main{
+         flex-direction: column;
+    }
+  }
