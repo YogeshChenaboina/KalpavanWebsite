@@ -5,6 +5,7 @@ import ram1 from './images/ram1.jpeg'
 import kalpavan from './images/KALPAVAN (main img).jpg'
 import video from './images/kalpavan_video.mp4'
 import styles from './homeCss.module.css'
+import 'animate.css';
 const Home = () => {
   console.log("Home");
   
@@ -27,7 +28,6 @@ const Home = () => {
             className="d-block "
             src={ganesh1}
             alt="Second slide"
-            //  height="550"
             style={{ height: 'auto' , width:'50%' }} 
           />
           </center>
@@ -51,19 +51,20 @@ const Home = () => {
         </Carousel.Item>
       </Carousel>
       <center>
-        <h1 className={styles.head}>Bring Your Carrier On The Right Track</h1>
-      <div class="embed-responsive embed-responsive-16by9">
-  <video class="embed-responsive-item" src={video} controls style={{ height: '70vh' , width:'60%' }}>
-  Being a student is one of the most exciting times of a young person’s life and so they must choose the right place and subject to study are important, as the choices you make now will influence your future on both a personal and a professional level.
-This prospectus will help you make those decisions by giving you the detailed information you need about St. Joseph’s and our study programmes. Here is a great learning experience waiting.
+       
+      <div class="embed-responsive embed-responsive-16by9" className={styles.vid}>
+      <h2  class="animate__animated animate__bounce animate__slow" className={styles.head}>Bring Your Carrier On The Right Track</h2>
+  <video class="embed-responsive-item"  src={video} controls style={{ height: 'auto' , width:'80%' }} className={styles.mvid}>
+
   </video>
-  
-  
+  <p className={styles.para}>Being a student is one of the most exciting times of a young person’s life 
+and so they must choose the right place and subject to study are important, as the choices you make now
+ will influence your future on both a personal and a professional level.
+     This prospectus will help you make those decisions by giving you the detailed information you need
+      about Kalpavan's and our study programmes. Here is a great learning experience waiting.
+  </p>
 </div>
 
-<p className={styles.para}>Being a student is one of the most exciting times of a young person’s life and so they must choose the right place and subject to study are important, as the choices you make now will influence your future on both a personal and a professional level.
-     This prospectus will help you make those decisions by giving you the detailed information you need about Kalpavan's and our study programmes. Here is a great learning experience waiting.
-  </p>
   </center>
     </div>
   )
