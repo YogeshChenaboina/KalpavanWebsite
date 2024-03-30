@@ -54,7 +54,7 @@ const Home = () => {
        
       <div class="embed-responsive embed-responsive-16by9" className={styles.vid}>
       <h2  class="animate__animated animate__bounce animate__slow" className={styles.head}>Bring Your Carrier On The Right Track</h2>
-  <video class="embed-responsive-item"  src={video} controls style={{ height: 'auto' , width:'80%' }} className={styles.mvid}>
+  <video class="embed-responsive-item"  src={video} controls style={{ height: 'auto' , width:'80%' }} className={styles.mvidi}>
 
   </video>
   <p className={styles.para}>Being a student is one of the most exciting times of a young person’s life 
