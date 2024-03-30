@@ -17,7 +17,7 @@ const Home = () => {
             className="d-block "
             src={kalpavan}
             alt="First slide"
-            style={{ height: '70vh' , width:'60%' }}  
+            style={{ height: 'auto' , width:'60%' }}  
           />
           </center>
         </Carousel.Item>
@@ -28,7 +28,7 @@ const Home = () => {
             src={ganesh1}
             alt="Second slide"
             //  height="550"
-            style={{ height: '70vh' , width:'50%' }} 
+            style={{ height: 'auto' , width:'50%' }} 
           />
           </center>
           <Carousel.Caption>
@@ -42,7 +42,7 @@ const Home = () => {
             className="d-block "
             src={ram1}
             alt="Third slide"
-            style={{ height: '70vh' , width:'45%' }} 
+            style={{ height: 'auto' , width:'45%' }} 
           /></center>
           <Carousel.Caption>
             <h5>RamNavami</h5>
