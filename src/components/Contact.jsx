@@ -7,6 +7,7 @@ import { MdOutlineMyLocation } from "react-icons/md";
 import { CiInstagram } from "react-icons/ci"
 import { BsWhatsapp } from "react-icons/bs";
 import { FaPhone } from "react-icons/fa6";
+import {ContactForm} from './ContactForm'
 const Contact = () => {
   return (
     <div>
@@ -49,6 +50,7 @@ hospital</div>
          
     </div>
     </div>
+    <ContactForm/>
       <div className={styles.map}>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d951.958063513442!2d78.46893736945964!3d17.371802978903514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97c0c9bec143%3A0x2a982da0eae5e7cc!2sKalpavan%20Academy!5e0!3m2!1sen!2sin!4v1711552735498!5m2!1sen!2sin" title='map' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>

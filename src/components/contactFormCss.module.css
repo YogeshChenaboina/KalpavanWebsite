@@ -1,0 +1,49 @@
+.main{
+    background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);
+    display: flex;
+    
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 20px 20px -17px rgba(113, 89, 92, 0.7);
+}
+.one{
+    width: 50%;
+    /* border: solid black 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    width: 50%;
+    /* border: solid black 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    color: green;
+    font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.inp{
+    border-radius: 5px;
+    width: 100%;
+}
+.send{
+    width: 100%;
+    margin-bottom: 5px;
+}
+img{
+    border-radius: 10px;
+}
+@media(max-width:700px){
+    .main{
+        width: 100%;
+    margin: 10px;
+    }
+}
