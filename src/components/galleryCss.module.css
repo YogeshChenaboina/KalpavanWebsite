@@ -2,6 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   background: linear-gradient(to right, #ffefba, #ffffff);
+  justify-content: space-evenly;
+  padding: 5px;
 } 
 .center{
   background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
@@ -12,13 +14,13 @@
   font-size: xx-large;
 }
 .images{
-  margin: 10px;
   width: 200px;
+  margin-top: 10px;
 }
 .img{
      width: 100%;
      height: 250px;
-     
+     object-fit: cover;
      cursor: pointer;
 }
 .zoom{
