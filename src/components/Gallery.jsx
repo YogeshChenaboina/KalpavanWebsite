@@ -37,12 +37,13 @@ const Gallery = () => {
   const handleTouchStart = (event) => {
     setTouchStartX(event.touches[0].clientX);
   };
-  
+
   const handleTouchEnd = (event) => {
+    if (!touchStartX) return; // Ensure touchStartX is initialized
     const touchEndX = event.changedTouches[0].clientX;
     const deltaX = touchEndX - touchStartX;
     const threshold = 50; // Adjust threshold as needed
-  
+
     if (deltaX > threshold) {
       // Swiped right, go to previous image
       handleLeftArrowClick();
@@ -50,6 +51,8 @@ const Gallery = () => {
       // Swiped left, go to next image
       handleRightArrowClick();
     }
+
+    setTouchStartX(null); // Reset touchStartX
   };
 
   useEffect(() => {
