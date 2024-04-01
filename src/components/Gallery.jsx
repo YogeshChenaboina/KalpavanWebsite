@@ -1,7 +1,5 @@
-import React from 'react'
-import  { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import image1 from './images/ganesh1.jpeg'
-
 import image2 from './images/gallery1/ram2.jpeg'
 import image3 from './images/ram1.jpeg'
 import image4 from './images/gallery1/ram4.jpeg'
@@ -14,14 +12,12 @@ import image10 from './images/gallery1/won3.jpeg'
 import image11 from './images/gallery1/ram4.jpeg'
 import image12 from './images/ganesh2.jpeg'
 import styles from './galleryCss.module.css'
-import { RxCrossCircled } from "react-icons/rx";
 
 const Gallery = () => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
-   const images = [image1, image2, image3,image4,image5,image6,image7,image8,image9,image10,image11,image12]; // Add all imported images to this array
+  const [touchStartX, setTouchStartX] = useState(null);
+  const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12];
 
-   const [touchStartX, setTouchStartX] = useState(null);
-  
   const handleImageClick = (index) => {
     setSelectedImageIndex(index);
   };
@@ -55,7 +51,6 @@ const Gallery = () => {
       handleRightArrowClick();
     }
   };
-  
 
   useEffect(() => {
     const handleKeyDown = (event) => {
@@ -71,51 +66,35 @@ const Gallery = () => {
       document.removeEventListener('keydown', handleKeyDown);
     };
   }, []);
+
   return (
     <div>
       <div className={styles.center}>
-      Image Gallery
+        Image Gallery
       </div>
-      <div 
-      // style={{ display: 'flex', flexWrap: 'wrap' }} 
-      className={styles.main}
-      >
+      <div className={styles.main}>
         {images.map((imageURL, index) => (
-          <div key={index} 
-          // style={{ margin: '10px', width: '200px' }} 
-          className={styles.images}
-          >
+          <div key={index} className={styles.images}>
             <img
               src={imageURL}
               alt={`Image ${index + 1}`}
-              // style={{ maxWidth: '100%', height: 'auto', cursor: 'pointer' }}
               onClick={() => handleImageClick(index)}
               onTouchStart={handleTouchStart}
               onTouchEnd={handleTouchEnd}
-               className={styles.img}
+              className={styles.img}
             />
           </div>
         ))}
       </div>
       {selectedImageIndex !== null && (
-        <div 
-        // style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0, 0, 0, 0.5)', zIndex: 1000 }} 
-        className={styles.zoom}
-        >
-          <div 
-          // style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
-          className={styles.zoom2}
-          >
-            <img src={images[selectedImageIndex]} alt={`Image ${selectedImageIndex + 1}`} 
-            // style={{ maxWidth: '90%', maxHeight: '90%', cursor: 'pointer' }} 
-            className={styles.zoomImg}
-            />
+        <div className={styles.zoom}>
+          <div className={styles.zoom2}>
+            <img src={images[selectedImageIndex]} alt={`Image ${selectedImageIndex + 1}`} className={styles.zoomImg} />
             <div className={styles.buttonsContainer}>
-            
-            <button onClick={handleLeftArrowClick}>⬅️</button>
-            <button onClick={handleRightArrowClick}>➡️</button>
+              <button onClick={handleLeftArrowClick}>⬅️</button>
+              <button onClick={handleRightArrowClick}>➡️</button>
             </div>
-            <button onClick={handleCloseClick} className={styles.closeButton} ><RxCrossCircled /></button>
+            <button onClick={handleCloseClick} className={styles.closeButton}>Close</button>
           </div>
         </div>
       )}
@@ -123,4 +102,4 @@ const Gallery = () => {
   );
 }
 
-export default Gallery
+export default Gallery;
