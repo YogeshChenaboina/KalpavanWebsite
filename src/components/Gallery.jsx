@@ -1,5 +1,5 @@
 import React from 'react'
-import  { useState } from 'react';
+import  { useState,useEffect } from 'react';
 import image1 from './images/ganesh1.jpeg'
 
 import image2 from './images/gallery1/ram2.jpeg'
@@ -14,16 +14,13 @@ import image10 from './images/gallery1/won3.jpeg'
 import image11 from './images/gallery1/ram4.jpeg'
 import image12 from './images/ganesh2.jpeg'
 import styles from './galleryCss.module.css'
-import { ImCross } from "react-icons/im"; 
-// import { FaAngleLeft } from "react-icons/fa6";
-// import { FaAngleLeft } from "react-icons/fa6";
-import { CiCircleChevLeft } from "react-icons/ci";
 import { RxCrossCircled } from "react-icons/rx";
 
 const Gallery = () => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
    const images = [image1, image2, image3,image4,image5,image6,image7,image8,image9,image10,image11,image12]; // Add all imported images to this array
 
+   const [touchStartX, setTouchStartX] = useState(null);
   
   const handleImageClick = (index) => {
     setSelectedImageIndex(index);
@@ -41,6 +38,39 @@ const Gallery = () => {
     setSelectedImageIndex(null);
   };
 
+  const handleTouchStart = (event) => {
+    setTouchStartX(event.touches[0].clientX);
+  };
+  
+  const handleTouchEnd = (event) => {
+    const touchEndX = event.changedTouches[0].clientX;
+    const deltaX = touchEndX - touchStartX;
+    const threshold = 50; // Adjust threshold as needed
+  
+    if (deltaX > threshold) {
+      // Swiped right, go to previous image
+      handleLeftArrowClick();
+    } else if (deltaX < -threshold) {
+      // Swiped left, go to next image
+      handleRightArrowClick();
+    }
+  };
+  
+
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.keyCode === 37) { // Left arrow key
+        handleLeftArrowClick();
+      } else if (event.keyCode === 39) { // Right arrow key
+        handleRightArrowClick();
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
   return (
     <div>
       <div className={styles.center}>
@@ -60,6 +90,8 @@ const Gallery = () => {
               alt={`Image ${index + 1}`}
               // style={{ maxWidth: '100%', height: 'auto', cursor: 'pointer' }}
               onClick={() => handleImageClick(index)}
+              onTouchStart={handleTouchStart}
+              onTouchEnd={handleTouchEnd}
                className={styles.img}
             />
           </div>

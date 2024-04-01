@@ -20,7 +20,7 @@ hospital</div>
     <MdOutlineMyLocation/>Telangana, Pin: 500012.
     </div>
     <div className={styles.symb}>
-<a href="mailto:kalpavanacademy.com" target="_blank"><FiMail/>kalpavanacademy@gmail.com</a>
+<a href="mailto:kalpavanacademy.com" target="_blank"><FiMail className={styles.icon}/>kalpavanacademy@gmail.com</a>
 </div>
     </div> 
     <div className={styles.div2}>
@@ -30,9 +30,9 @@ hospital</div>
       </h3>
       </center>
     <div className={styles.social}>
-<a href="https://www.instagram.com/kalpvan_academy/?igsh=NGVhN2U2NjQ0Yg%3D%3D" target='_blank'><CiInstagram className='icon'/></a>
-    <a href=''><LuFacebook className='icon'/></a>
-    <a href="https://wa.me/91630170634" target="_blank"><BsWhatsapp /></a>
+<a href="https://www.instagram.com/kalpvan_academy/?igsh=NGVhN2U2NjQ0Yg%3D%3D" target='_blank'><CiInstagram className={styles.icon}/></a>
+    <a href=''><LuFacebook className={styles.icon}/></a>
+    <a href="https://wa.me/91630170634" target="_blank"><BsWhatsapp className={styles.icon}/></a>
     </div>
     </div>
     </div>

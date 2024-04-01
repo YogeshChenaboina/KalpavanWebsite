@@ -10,7 +10,7 @@ const Home = () => {
   console.log("Home");
   
   return (
-    <div>
+    <div className={styles.main}>
        <Carousel data-bs-theme="success">
         <Carousel.Item>
           <center>
@@ -66,6 +66,7 @@ and so they must choose the right place and subject to study are important, as t
 </div>
 
   </center>
+  
     </div>
   )
 }

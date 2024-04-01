@@ -33,17 +33,17 @@ hospital</div>
          <div className={styles.social}>
                <h3>Media</h3>
                <div>
-                <FaPhone/>7386806729/630170634
+                <FaPhone/>&nbsp;&nbsp;630170634
                </div>
                <div>
-               <a href="mailto:kalpavanacademy.com" target="_blank" className={styles.logo}><FiMail/></a>kalpavanacademy@gmail.com
+               <a href="mailto:kalpavanacademy.com" target="_blank" ><FiMail className={styles.icons}/></a>&nbsp;&nbsp;kalpavanacademy@gmail.com
                </div>
                <div>
-               <a href="https://www.instagram.com/kalpvan_academy/?igsh=NGVhN2U2NjQ0Yg%3D%3D" target='_blank' className={styles.logo}><CiInstagram className='icon'/></a>kalpvan_academy
+               <a href="https://www.instagram.com/kalpvan_academy/?igsh=NGVhN2U2NjQ0Yg%3D%3D" target='_blank' ><CiInstagram className={styles.icons}/></a>&nbsp;&nbsp;kalpvan_academy
                </div>
                <div>
-    <a href="https://wa.me/91630170634" target="_blank" className={styles.logo}><BsWhatsapp /></a>
-     630170634
+    <a href="https://wa.me/91630170634" target="_blank" ><BsWhatsapp className={styles.icons}/></a>
+    &nbsp;&nbsp; 630170634
     </div>
     <marquee>NOTE:Feel Free To Click On The Icon...</marquee>
          </div>

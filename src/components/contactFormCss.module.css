@@ -1,7 +1,6 @@
 .main{
     background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);
     display: flex;
-    
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -47,3 +46,5 @@ img{
     margin: 10px;
     }
 }
+
+
