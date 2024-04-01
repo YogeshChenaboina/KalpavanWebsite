@@ -5,6 +5,7 @@ import ram1 from './images/ram1.jpeg'
 import kalpavan from './images/KALPAVAN (main img).jpg'
 import video from './images/kalpavan_video.mp4'
 import styles from './homeCss.module.css'
+import book from './images/gallery1/book.avif'
 import 'animate.css';
 const Home = () => {
   console.log("Home");
@@ -66,7 +67,91 @@ and so they must choose the right place and subject to study are important, as t
 </div>
 
   </center>
-  
+  <div className={styles.about}>
+   <center> <h1>About Us</h1></center>
+    <div className={styles.div}>
+    <div className={styles.div1}>
+      <p>
+      Since our Instituition was established, Every year the 
+      student’s pass percentage is on an upward trend and 
+      highlights meritorious marks and performance.
+
+<h4>
+Our Mission :
+</h4>
+To provide the best quality education to our students.
+<h4>
+Our Vision :
+</h4>
+To become the top educational institution in Hyderabad, India.
+      </p>
+    </div>
+    <div className={styles.div1}></div>
+    </div>
+  </div>
+  <div className={styles.ourCourses}>
+  <center> <h1>Our Courses</h1></center>
+  <div className={styles.cards}>
+      <div className={styles.card}>
+        <img src={book} className={styles.book}/>
+        <h3>CA Foundation</h3>
+        <p>Our CA Foundation classes are meticulously structured to 
+          align with the syllabus requirements, with dedicated 
+          instructors for each subject. Through this tailored approach, we aim to 
+          equip students with the knowledge and skills necessary to 
+          excel in their CA Foundation examinations.</p>
+      </div>
+      <div className={styles.card}>
+      <img src={book} className={styles.book}/>
+      <h3>Intermediate</h3>
+        <p> We offer Intermediate Public Examinations (IPE) classes 
+          tailored specifically for students pursuing the MEC 
+          (Mathematics, Economics, Commerce) and CEC 
+          (Civics, Economics, Commerce) streams.</p>
+      </div>
+      <div className={styles.card}>
+      <img src={book} className={styles.book}/>
+      <h3>Higher Classes (School)</h3>
+        <p>Higher classes convene daily, following a meticulously scheduled
+           timetable that aligns with the syllabus. Each session 
+           is dedicated to covering specific topics outlined in 
+           the curriculum, ensuring comprehensive understanding 
+           and progress towards academic objectives.</p>
+      </div>
+  </div>
+  </div>
+
+  <div className={styles.testinomials}>
+    <div>
+      <center><h1>Testimonials</h1></center>
+      <div className={styles.testi}>
+      <Carousel>
+      <Carousel.Item>
+        <div className={styles.review}>
+          <center>
+        <h1>Prachi</h1>
+        </center>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className={styles.review}>
+          <center>
+      <h1>Bhagii</h1>
+      </center>
+      </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className={styles.review}>
+          <center>
+      <h1>Tanish</h1>
+      </center>
+      </div>
+      </Carousel.Item>
+    </Carousel>
+      </div>
+    </div>
+  </div>
+
     </div>
   )
 }
