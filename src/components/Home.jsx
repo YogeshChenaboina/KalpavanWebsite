@@ -6,6 +6,10 @@ import kalpavan from './images/KALPAVAN (main img).jpg'
 import video from './images/kalpavan_video.mp4'
 import styles from './homeCss.module.css'
 import book from './images/gallery1/book.avif'
+import prachi from './images/gallery1/prachiimg.jpg'
+import vital from './images/gallery1/vithalimg.jpg'
+import sena from './images/gallery1/senareetaimg.jpg'
+import omkar from './images/gallery1/omkarimg.jpg'
 import 'animate.css';
 const Home = () => {
   console.log("Home");
@@ -128,23 +132,81 @@ To become the top educational institution in Hyderabad, India.
       <Carousel>
       <Carousel.Item>
         <div className={styles.review}>
-          <center>
-        <h1>Prachi</h1>
-        </center>
+        
+          <div className={styles.test1}>
+              <p>
+              THANK YOU SIR FOR YOUR SUPPORT AND EFFORTS WHICH MADE ME SCORE 
+              THIS MARKS.
+              THIS MADE ME REALISE THAT CHOOSING KALPVAN ACADEMY WAS MY 
+              BEST DECISION.
+              </p>
+              ⭐⭐⭐⭐⭐
+              <h5>Prachi Pandey</h5>
+              <h6>Intermediate Student(M.E.C.)</h6>
+          </div>
+          <div className={styles.test2}>
+            
+            <img src={prachi} height="90%" width="90%"/>
+          </div>
+       
         </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className={styles.review}>
-          <center>
-      <h1>Bhagii</h1>
-      </center>
+        <div className={styles.test1}>
+              <p>
+              I am thankful to be a part of this institution.The way 
+              you hold all  students to a high standard is 
+              impressive. It shows your belief that every one in
+               your classroom can become better...you have strong
+                passion for teaching. It is inspiring to both 
+                students and teachers
+              </p>
+              ⭐⭐⭐⭐⭐
+              <h5>Nagampally Vithal</h5>
+              <h6>Intermediate Student(M.E.C.)</h6>
+          </div>
+          <div className={styles.test2}>
+            
+            <img src={vital} height="90%" width="90%"/>
+          </div>
       </div>
       </Carousel.Item>
       <Carousel.Item>
         <div className={styles.review}>
-          <center>
-      <h1>Tanish</h1>
-      </center>
+        <div className={styles.test1}>
+              <p>
+              Iam very glad that i decided to join kalpvan Academy.
+              It helped me to understand the subjects instead of 
+              just memorizing them.
+              </p>
+              ⭐⭐⭐⭐⭐
+              <h5>Senareeta Kar</h5>
+              <h6>Intermediate Student(M.E.C.)</h6>
+          </div>
+          <div className={styles.test2}>
+            
+            <img src={sena} height="90%" width="90%"/>
+          </div>
+      </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div className={styles.review}>
+        <div className={styles.test1}>
+              <p>
+              THE KALPVAN IS THE PLACE WERE WE GET TO KNOW SELF 
+              INTROSPECTION IT IS NOT ABOUT WHAT WE ARE STUDYING,
+               IT IS ACQUIRING KNOWLEDGE. SUCCESS EXCELLENCE. 
+               KALPVAN   IS PLACE WE ARCHIVE EXCELLENCE TOGETHER.
+              </p>
+              ⭐⭐⭐⭐⭐
+              <h5>Omkar Swamy</h5>
+              <h6>Intermediate Student(M.E.C.)</h6>
+          </div>
+          <div className={styles.test2}>
+            
+            <img src={omkar} height="90%" width="90%"/>
+          </div>
       </div>
       </Carousel.Item>
     </Carousel>

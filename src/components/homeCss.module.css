@@ -68,9 +68,26 @@
 }
 .review{
     width: 90vw;
-    height: 100px;
+    height:250px;
     border: 1px solid black;
     border-radius: 20px;
+    display: flex;
+}
+.test1{
+    width: 60%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.test2{
+    width: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media (max-width: 768px){
     .para{
