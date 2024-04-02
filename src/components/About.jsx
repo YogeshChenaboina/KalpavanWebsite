@@ -14,17 +14,17 @@ About Us
 </div>
 <div className={styles.image}>
 <div className={styles.layer}>
-  <p>Welcome to <span style={{color: "gold"}}>Kalpavan Academy Educational Institute</span>, where our mission revolves around the ethos of 
+  <p>Welcome to <span style={{color: "gold"}}>Kalpvan Academy Educational Institute</span>, where our mission revolves around the ethos of 
   <span style={{color: " #51e2f5"}}>"Achieving Excellence Together"</span>.Specializing in classes for Higher Classes, Intermediate,
    and CA Foundation, we are dedicated to providing tailored education that equips students with the skills and knowledge they need 
    to succeed We take immense pride in our rich academic heritage, distinguished by a reputation for unparalleled
-   educational standards. At Kalpavan, we are committed to democratizing education, offering courses that are not only of the highest 
+   educational standards. At Kalpvan, we are committed to democratizing education, offering courses that are not only of the highest 
    quality but also financially accessible to all. Our faculty comprises seasoned educators, whose wealth of experience and passion for 
    teaching ensures a transformative learning experience for every student. With a curriculum meticulously crafted to cover all subjects
     comprehensively, supplemented by tailored test series, we pave the way for academic success. Moreover, our dedication extends beyond 
     mere academics; we provide holistic guidance on long-term career development, preparing students to excel in their chosen paths.
      Through regular orientation sessions, personalized support, and an extended network of assistance, we foster a culture of collaboration 
-     and growth. At Kalpavan, we firmly believe that excellence is achieved through collective effort, and we invite you to embark on this
+     and growth. At Kalpvan, we firmly believe that excellence is achieved through collective effort, and we invite you to embark on this
       journey with us towards a brighter future.</p>
     </div>
 </div>   

@@ -38,7 +38,7 @@ const Home = () => {
           </center>
           <Carousel.Caption>
             <h5>Ganesh Maharaj</h5>
-            <p>2023 Ganesh Maharaj of Kalpavan Academy</p>
+            <p>2023 Ganesh Maharaj of Kalpvan Academy</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -51,22 +51,22 @@ const Home = () => {
           /></center>
           <Carousel.Caption>
             <h5>RamNavami</h5>
-            <p>Sri Rama Abhishekam in Kalpavan Academy</p>
+            <p>Sri Rama Abhishekam in Kalpvan Academy</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
       <center>
        
       <div class="embed-responsive embed-responsive-16by9" className={styles.vid}>
-      <h2  class="animate__animated animate__bounce animate__slow" className={styles.head}>Bring Your Carrier On The Right Track</h2>
+      {/* class="animate__animated animate__bounce animate__slow" */}
+      <h2   className={styles.head}>Bring Your Carrier On The Right Track</h2>
   <video class="embed-responsive-item"  src={video} controls style={{ height: 'auto' , width:'80%' }} className={styles.mvidi}>
-
   </video>
   <p className={styles.para}>Being a student is one of the most exciting times of a young person’s life 
 and so they must choose the right place and subject to study are important, as the choices you make now
  will influence your future on both a personal and a professional level.
      This prospectus will help you make those decisions by giving you the detailed information you need
-      about Kalpavan's and our study programmes. Here is a great learning experience waiting.
+      about Kalpvan's and our study programmes. Here is a great learning experience waiting.
   </p>
 </div>
 
@@ -182,7 +182,7 @@ To become the top educational institution in Hyderabad, India.
               </p>
               ⭐⭐⭐⭐⭐
               <h5>Senareeta Kar</h5>
-              <h6>Intermediate Student(M.E.C.)</h6>
+              <h6>SSC Student</h6>
           </div>
           <div className={styles.test2}>
             
@@ -201,7 +201,7 @@ To become the top educational institution in Hyderabad, India.
               </p>
               ⭐⭐⭐⭐⭐
               <h5>Omkar Swamy</h5>
-              <h6>Intermediate Student(M.E.C.)</h6>
+              <h6>SSC Student</h6>
           </div>
           <div className={styles.test2}>
             

@@ -9,7 +9,7 @@ import { MdOutlineMyLocation } from "react-icons/md";
 const Footer = () => {
   return (
     <div className={styles.main}>
-   <div className={styles.symbol}>
+    <div className={styles.symbol}>
     <div className={styles.symb}>
     <BiMap />15-7-258, 3rd floor, Ojha nivas, Ayurvedic
 hospital</div>
@@ -20,7 +20,7 @@ hospital</div>
     <MdOutlineMyLocation/>Telangana, Pin: 500012.
     </div>
     <div className={styles.symb}>
-<a href="mailto:kalpavanacademy.com" target="_blank"><FiMail className={styles.icon}/>kalpavanacademy@gmail.com</a>
+<a href="mailto:kalpvanacademy.com" target="_blank"><FiMail className={styles.icon}/>kalpvanacademy@gmail.com</a>
 </div>
     </div> 
     <div className={styles.div2}>

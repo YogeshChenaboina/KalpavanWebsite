@@ -30,13 +30,14 @@ hospital</div>
     </div> 
     </div>
     <div className={styles.sub2}>
+    <h3>Media</h3>
          <div className={styles.social}>
-               <h3>Media</h3>
+               
                <div>
                 <FaPhone/>&nbsp;&nbsp;630170634
                </div>
                <div>
-               <a href="mailto:kalpavanacademy.com" target="_blank" ><FiMail className={styles.icons}/></a>&nbsp;&nbsp;kalpavanacademy@gmail.com
+               <a href="mailto:kalpvanacademy.com" target="_blank" ><FiMail className={styles.icons}/></a>&nbsp;&nbsp;kalpvanacademy@gmail.com
                </div>
                <div>
                <a href="https://www.instagram.com/kalpvan_academy/?igsh=NGVhN2U2NjQ0Yg%3D%3D" target='_blank' ><CiInstagram className={styles.icons}/></a>&nbsp;&nbsp;kalpvan_academy
