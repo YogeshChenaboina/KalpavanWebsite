@@ -142,7 +142,7 @@ To become the top educational institution in Hyderabad, India.
               </p>
               ⭐⭐⭐⭐⭐
               <h5>Prachi Pandey</h5>
-              <h6>Intermediate Student(M.E.C.)</h6>
+              <h6>Intermediate(M.E.C.)</h6>
           </div>
           <div className={styles.test2}>
             
@@ -164,7 +164,7 @@ To become the top educational institution in Hyderabad, India.
               </p>
               ⭐⭐⭐⭐⭐
               <h5>Nagampally Vithal</h5>
-              <h6>Intermediate Student(M.E.C.)</h6>
+              <h6>Intermediate(M.E.C.)</h6>
           </div>
           <div className={styles.test2}>
             
