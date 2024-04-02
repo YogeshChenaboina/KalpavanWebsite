@@ -102,6 +102,7 @@ iframe{
 
 @media(max-width:700px){
 .main{
+    width: 95%;
     flex-direction: column;
 }
 .sub1,.sub2{
