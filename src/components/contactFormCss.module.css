@@ -45,6 +45,12 @@ img{
         width: 100%;
     margin: 10px;
     }
+    .one{
+        width: 35%;
+    }
+    .two{
+        width: 65%;
+    }
 }
 
 
