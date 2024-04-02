@@ -6,14 +6,35 @@
     align-items: center;
     font-size: xx-large;
 }
+.main{
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+}
 .first{
     display: flex;
 }
 .subF,.subS{
     padding: 10px;
     width: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+.subF{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .second{
+    display: flex;
+}
+.third{
+    display: flex;
+}
+.fourth{
     display: flex;
 }
