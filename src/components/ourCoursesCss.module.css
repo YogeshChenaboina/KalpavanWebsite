@@ -6,5 +6,14 @@
     align-items: center;
     font-size: xx-large;
 }
-
-
+.first{
+    display: flex;
+}
+.subF,.subS{
+    padding: 10px;
+    width: 50%;
+    border: 1px solid black;
+}
+.second{
+    display: flex;
+}
