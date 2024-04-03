@@ -1,3 +1,6 @@
+.top{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
 .center{
     background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
     height: 100px;
@@ -6,6 +9,7 @@
     align-items: center;
     font-size: xx-large;
 }
+
 .main
 {
     display: flex;

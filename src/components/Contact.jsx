@@ -10,7 +10,7 @@ import { FaPhone } from "react-icons/fa6";
 import {ContactForm} from './ContactForm'
 const Contact = () => {
   return (
-    <div>
+    <div className={styles.top}>
     <div className={styles.center}>
         Contact Us
       </div>

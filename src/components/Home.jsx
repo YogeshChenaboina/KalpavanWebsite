@@ -90,7 +90,7 @@ Our Vision :
 To become the top educational institution in Hyderabad, India.
       </p>
     </div>
-    <div className={styles.div1}></div>
+    {/* <div className={styles.div1}></div> */}
     </div>
   </div>
   <div className={styles.ourCourses}>
@@ -167,7 +167,6 @@ To become the top educational institution in Hyderabad, India.
               <h6>Intermediate(M.E.C.)</h6>
           </div>
           <div className={styles.test2}>
-            
             <img src={vital} height="90%" width="90%"/>
           </div>
       </div>
