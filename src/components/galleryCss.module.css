@@ -1,7 +1,8 @@
 .main{
   display: flex;
   flex-wrap: wrap;
-  background: linear-gradient(to right, #ffefba, #ffffff);
+  /* background: linear-gradient(to right, #ffefba, #ffffff); */
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   justify-content: space-evenly;
   padding: 5px;
 } 

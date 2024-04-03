@@ -7,7 +7,9 @@
     font-size: xx-large;
 }
 .main{
-    background: linear-gradient(to right, #ece9e6, #ffffff);
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    /* background: linear-gradient(to right, #ece9e6, #ffffff); */
+    color: white;
 }
 .first{
     display: flex;

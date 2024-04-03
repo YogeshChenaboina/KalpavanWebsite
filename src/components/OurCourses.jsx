@@ -102,26 +102,7 @@ Click here to Download</h5>
         </center>
       </div>
       </div>
-      <hr />
-      <hr />
-      <hr />
-      <hr />
-      <div className={styles.fourth}>
-      <div >
-      Intermediate and Higher Classes:
-   Our institution is committed to delivering exceptional education at the
-   intermediate and higher levels. With a focus on ease and effectiveness,
-   we adhere to solid principles that underpin our teaching methodology. 
-   Our experienced faculty members employ innovative teaching techniques 
-   and a student-centric approach to create an engaging learning 
-   environment. Whether it's mastering complex concepts or honing practical
-   skills, we ensure that students receive comprehensive instruction that 
-   prepares them for academic success. Through our commitment to 
-   excellence and dedication to student welfare, we aim to instill 
-   confidence and inspire a lifelong love for learning in our students.
-      </div>
       
-      </div>
     </div>
     </div>
   )
