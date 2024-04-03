@@ -37,7 +37,7 @@ const Home = () => {
           />
           </center>
           <Carousel.Caption>
-            <h5>Ganesh Maharaj</h5>
+            {/* <h5>Ganesh Maharaj</h5> */}
             <p>2023 Ganesh Maharaj of Kalpvan Academy</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -50,7 +50,7 @@ const Home = () => {
             style={{ height: 'auto' , width:'45%' }} 
           /></center>
           <Carousel.Caption>
-            <h5>RamNavami</h5>
+            {/* <h5>RamNavami</h5> */}
             <p>Sri Rama Abhishekam in Kalpvan Academy</p>
           </Carousel.Caption>
         </Carousel.Item>
